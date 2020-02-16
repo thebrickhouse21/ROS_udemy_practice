@@ -14,6 +14,6 @@ if __name__ == '__main__': #if statement that checks for ros
         rospy.loginfo("hello!!")
         rate.sleep() #holds the rate constant while node is running 
         
-    #rospy.sleep(1) #will kill the node after 1 second
+    #rospy.sleep(1) #will delay the node after 1 second
 
     #rospy.loginfo("exit now")
