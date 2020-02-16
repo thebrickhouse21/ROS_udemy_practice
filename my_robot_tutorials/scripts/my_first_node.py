@@ -11,9 +11,9 @@ if __name__ == '__main__': #if statement that checks for ros
     rate = rospy.Rate(10) #sets the rate in hertz of how much the ros node will execute 
 
     while not rospy.is_shutdown(): #runs the node until it is stopped by the user 
-        rospy.loginfo("hello")
-        #rate.sleep() #holds the rate constant while node is running 
+        rospy.loginfo("hello!!")
+        rate.sleep() #holds the rate constant while node is running 
+        
+    #rospy.sleep(1) #will delay the node after 1 second
 
-    # rospy.sleep(1) #will delay the node after 1 second
-
-    # rospy.loginfo("exit now")
+    #rospy.loginfo("exit now")
