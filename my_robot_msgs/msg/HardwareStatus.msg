@@ -1,0 +1,3 @@
+int64 temperature
+bool idk_stuff
+string debug_msg
