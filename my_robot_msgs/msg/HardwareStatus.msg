@@ -1,3 +1,3 @@
 int64 temperature
-bool idk_stuff
-string debug_msg
+bool are_motors_up
+string debug_message
